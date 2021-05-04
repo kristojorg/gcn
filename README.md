@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a coding demo for GCN. It shows a proposed new navigation for globalcyclingnetwork.com. 
 
-## Getting Started
+# TOC
+1. How to view it
+1. Questions & Assumptions
+1. How I built it
 
-First, run the development server:
+# How to view it
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+# Questions & Assumptions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Questions
+  - What is the goal? Drive app subscriptions? Shop purchases? Get views on the Youtube videos? To convert Youtube viewers to racing viewers?
+  - What are the different user groups? GCN has some distinct offerings, and it would be nice to know how much overlap there is in the customer base for each.
+  - Is this for logged in users only?
+  - Do people come looking for something in particular or to surf?
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Assumptions
+  - This is to be the "subscriber home page".
+  - It's sort of a cycling news feed, and meant to get people to the content they want as quickly as possible. 
+  - Visitors are coming looking for cycling content in general, not just youtube videos or just racing videos.
+  - We might also be able to use the same page for non subscribers, and put a paywall directly on the paid videos. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# How I built it
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+I am optimizing for speed here. I'm writing it in React, using the Next.js framework because I'm very familiar with it and can get a site up using Next very quickly. I also am using a component library (Chakra) with a theme applied to be more GCN-style. 
 
-## Learn More
+I am writing this in Typescript.
 
-To learn more about Next.js, take a look at the following resources:
+I haven't added any tests.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
