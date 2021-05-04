@@ -24,7 +24,7 @@ export default function Drawer() {
       <IconButton
         onClick={onOpen}
         aria-label="Menu"
-        variant="ghost"
+        variant="outline"
         color="white"
         ref={btnRef}
       >

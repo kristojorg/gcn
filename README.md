@@ -36,6 +36,7 @@ This is a coding demo for GCN. It shows a proposed new navigation for globalcycl
   - It's sort of a cycling news feed, and meant to get people to the content they want as quickly as possible. 
   - Visitors are coming looking for cycling content in general, not just youtube videos or just racing videos.
   - We might also be able to use the same page for non subscribers, and put a paywall directly on the paid videos. 
+  - I decided it would be ok to change the names of the sections to "Racing", GCN+, and Shop.
 
 - Recommendations
 

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Head from 'next/head';
+import Tabs from '../components/tabs';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
         <meta name="description" content="The source for cycling contnet." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>hello world</h1>
+      <Tabs />
     </div>
   );
 }
