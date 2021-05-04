@@ -13,7 +13,7 @@ const VideoItem: React.FC<VideoItemProps> = ({ video }) => {
   return (
     <LinkBox>
       <Image src={getYTPreviewUrl(video._id)} alt={video.title} width="100%" />
-      <NextLink href={`/videos/${video.urlTitle}`}>
+      <NextLink href={`/gcn+/${video.urlTitle}`}>
         <LinkOverlay>
           <Heading pt={2} size="md">
             {video.title}
