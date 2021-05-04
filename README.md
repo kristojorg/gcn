@@ -2,10 +2,26 @@ This is a coding demo for GCN. It shows a proposed new navigation for globalcycl
 
 # TOC
 1. How to view it
+1. Answers to questions
 1. Questions & Assumptions
 1. How I built it
 
 # How to view it
+
+# Answers to questions
+
+## What further improvements would I make
+
+- Determine who the cohorts are and more specifics about what our goals are for visitors
+- A/B test this with a different design, maybe featuring carousels to see which drives more traffic towards our goals.
+
+## How would I prepare this for production
+
+- Unit testing
+- Integration testing
+- CI/CD workflow
+- Speed and accessibility testing
+- Error tracking
 
 # Questions & Assumptions
 
@@ -20,6 +36,8 @@ This is a coding demo for GCN. It shows a proposed new navigation for globalcycl
   - It's sort of a cycling news feed, and meant to get people to the content they want as quickly as possible. 
   - Visitors are coming looking for cycling content in general, not just youtube videos or just racing videos.
   - We might also be able to use the same page for non subscribers, and put a paywall directly on the paid videos. 
+
+- Recommendations
 
 # How I built it
 
