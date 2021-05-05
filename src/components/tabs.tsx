@@ -7,6 +7,7 @@ import {
   TabPanel,
 } from '@chakra-ui/react';
 import GcnFeed from './gcn-feed';
+import RacingFeed from './racing-feed';
 
 export default function Tabs() {
   return (
@@ -24,7 +25,7 @@ export default function Tabs() {
         </TabPanel>
 
         <TabPanel>
-          <p>one!</p>
+          <RacingFeed />
         </TabPanel>
 
         <TabPanel>

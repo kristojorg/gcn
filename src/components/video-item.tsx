@@ -20,7 +20,7 @@ const VideoItem: React.FC<VideoItemProps> = ({ video }) => {
           </Heading>
         </LinkOverlay>
       </NextLink>
-      <DateElement date={video.publishDate} />
+      <DateElement mt={1} date={video.publishDate} />
     </LinkBox>
   );
 };

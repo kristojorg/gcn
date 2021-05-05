@@ -22,6 +22,7 @@ This is a coding demo for GCN. It shows a proposed new navigation for globalcycl
 - CI/CD workflow
 - Speed and accessibility testing
 - Error tracking
+- Sync url with tabs
 
 # Questions & Assumptions
 
