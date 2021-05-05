@@ -1,12 +1,4 @@
 This is a coding demo for GCN. It shows a proposed new navigation for globalcyclingnetwork.com. 
-
-## TOC
-
-1. How to view it
-1. The concept
-1. Answers to prompt questions
-1. How I built it
-
 # How to view it
 
 I have deployed the site at https://gcn.kristo.sh, so feel free to view it there. You can also run it locally:
