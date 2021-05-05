@@ -39,7 +39,7 @@ const races = {
     makeRace(
       'Tour of Rwanda',
       'Stage 2',
-      'live',
+      '05/04/2021',
       'https://angliru-production.imgix.net/6d016387-a2d1-4679-b066-660c59e3d4e4?w=320&auto=format'
     ),
     makeRace(
