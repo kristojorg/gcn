@@ -2,13 +2,14 @@ This is a coding demo for GCN. It shows a proposed new navigation for globalcycl
 
 # TOC
 1. How to view it
-1. The idea
+1. The concept
 1. Answers to questions
 1. Questions & Assumptions
 1. How I built it
 
 # How to view it
 
+I have deployed the site at gcn.kristo.sh
 # Answers to questions
 
 ## What further improvements would I make
