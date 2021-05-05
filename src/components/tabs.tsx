@@ -6,7 +6,7 @@ import {
   Tab,
   TabPanel,
 } from '@chakra-ui/react';
-import RacingFeed from './racing-feed';
+import GcnFeed from './gcn-feed';
 
 export default function Tabs() {
   return (
@@ -20,17 +20,19 @@ export default function Tabs() {
 
       <TabPanels>
         <TabPanel>
-          <RacingFeed />
+          <GcnFeed />
         </TabPanel>
 
         <TabPanel>
           <p>one!</p>
         </TabPanel>
+
         <TabPanel>
-          <p>two!</p>
+          <GcnFeed />
         </TabPanel>
+
         <TabPanel>
-          <p>three!</p>
+          <p>shop!</p>
         </TabPanel>
       </TabPanels>
     </ChakraTabs>

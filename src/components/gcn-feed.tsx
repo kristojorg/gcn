@@ -3,7 +3,7 @@ import { VStack } from '@chakra-ui/react';
 import videos from '../assets/videos.json';
 import VideoItem from './video-item';
 
-export default function RacingFeed() {
+export default function GcnFeed() {
   return (
     <VStack spacing={10}>
       {videos.map((video) => (
