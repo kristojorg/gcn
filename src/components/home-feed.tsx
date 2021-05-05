@@ -24,7 +24,13 @@ export default function HomeFeed() {
         if ('publishDate' in raceOrVid) {
           return <VideoItem key={raceOrVid.urlTitle} video={raceOrVid} />;
         }
-        return <Race key={raceOrVid.title} isLive={false} {...raceOrVid} />;
+        return (
+          <Race
+            key={`${raceOrVid.title}.${raceOrVid.stage}`}
+            isLive={false}
+            {...raceOrVid}
+          />
+        );
       })}
     </VStack>
   );

@@ -12,7 +12,7 @@ export default function RacingFeed() {
       ))}
       <Heading width="100%">Replays</Heading>
       {races.replays.map((race) => (
-        <Race key={race.title} isLive={false} {...race} />
+        <Race key={`${race.title}.${race.stage}`} isLive={false} {...race} />
       ))}
     </VStack>
   );
