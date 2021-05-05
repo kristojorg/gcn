@@ -8,6 +8,7 @@ import {
 } from '@chakra-ui/react';
 import GcnFeed from './gcn-feed';
 import RacingFeed from './racing-feed';
+import HomeFeed from './home-feed';
 
 export default function Tabs() {
   return (
@@ -21,7 +22,7 @@ export default function Tabs() {
 
       <TabPanels>
         <TabPanel>
-          <GcnFeed />
+          <HomeFeed />
         </TabPanel>
 
         <TabPanel>
